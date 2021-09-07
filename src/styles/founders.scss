@@ -2,7 +2,7 @@
     text-align: center;
     margin-top: 60px;
     background-color: #171717;
-    min-height: 280px;
+    min-height: 470px;
 
     h1.founders-title{
         color: #737373;
@@ -11,6 +11,12 @@
 
     h1{
         font: 400 30px "Poppins", sans-serif;
+    }
+
+    img {
+        margin-top: 20px;
+        max-width: 180px;
+        border-radius: 50%;
     }
 
     .buttons{
@@ -28,7 +34,7 @@
     }
 
     .button{
-    padding: 20px;
+    padding: 12px;
     border-radius: 50%;
     border: 2px solid #171717;
     background-color: #fff;
@@ -37,7 +43,7 @@
 
 .buttonwhite{
     background-color: #171717;
-    padding: 20px;
+    padding: 12px;
     border-radius: 50%;
     border: 2px solid #fff;
     cursor: pointer;

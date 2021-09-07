@@ -1,6 +1,11 @@
 import { Foundersname } from "./Foundersname"
 import { Button } from "./Button"
 import "../styles/founders.scss"
+import sling from '../assets/images/sling.jpg'
+import tokin from '../assets/images/tokin.jpg'
+import pew from '../assets/images/pew.jpg'
+import sharp from '../assets/images/sharp.png'
+import kinho from '../assets/images/kinho.png'
 
 import { useState } from "react"
 
@@ -16,11 +21,11 @@ export function Founders() {
             <h1 className = "founders-title">Fundadores</h1>
 
             <div className="founders-name">
-                {(status === 1) ? <Foundersname name="Tokin" text="Gosta de animes, de basquete e de jogar League of Legends " /> : ''}
-                {(status === 2) ? <Foundersname name="Sling" text="Gosta de assistir séries e joga qualquer tipo de jogo " /> : ''}
-                {(status === 3) ? <Foundersname name="Kinho" text="Programa coisas e joga nas horas vagas " /> : ''}
-                {(status === 4) ? <Foundersname name="Pew" text="Progama coisas e assiste One Piece " /> : ''}
-                {(status === 5) ? <Foundersname name="Sharp888" text="Gosta de animes e desaparece as vezes " /> : ''}
+                {(status === 1) ? <Foundersname name="Tokin" text="Gosta de animes, de basquete e de jogar League of Legends " image = {tokin}/> : ''}
+                {(status === 2) ? <Foundersname name="Sling" text="Gosta de assistir séries e joga qualquer tipo de jogo " image = {sling}/> : ''}
+                {(status === 3) ? <Foundersname name="Kinho" text="Programa coisas e joga nas horas vagas " image = {kinho} /> : ''}
+                {(status === 4) ? <Foundersname name="Pew" text="Progama coisas e assiste One Piece " image = {pew}/> : ''}
+                {(status === 5) ? <Foundersname name="Sharp888" text="Gosta de animes e desaparece as vezes " image = {sharp}/> : ''}
 
             </div>
 
