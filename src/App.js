@@ -1,9 +1,12 @@
-import { Teste} from './pages/Teste'
+import {Home} from './pages/Home'
+
+import "./styles/global.scss"
+
 function App() {
   return (
    
    <div>
-     <Teste/>
+     <Home/>
    </div>
   );
 }

@@ -1,0 +1,30 @@
+.siteHeader{
+    padding: 24px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    .serverName {
+        color: #29292e;
+        font-size:28px;
+        
+    }
+
+    .discordButton{
+        background-color: #fff;
+        padding:10px 20px;
+        color: #29292e;
+        border: 1px solid #29292e;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.5s;
+        
+        &:hover{
+            color: #fff;
+            background-color: #29292e;
+        }
+    }
+    
+}
