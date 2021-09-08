@@ -2,7 +2,7 @@ import "../styles/games.scss"
 
 export function Games() {
     return (
-        <div className="main-content">
+        <div className="main-content-games">
             <h1>Jogos Populares</h1>
             <div className = "games-content">
                 <div>Counter Strike</div>

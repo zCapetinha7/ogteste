@@ -6,7 +6,7 @@ export function Discord(){
         <div className = "discord-content">
             <h2>Servidor no Discord</h2>
             <img className = "discord-img"src = {discordImg}alt = "logo do servidor"/>
-            <div className = "discord-message">Junte-se aos ... membros do servidor</div>
+            <div className = "discord-message">Junte-se aos mais de 180 membros do servidor</div>
             <a className = "discord-link" href = "https://discord.gg/apJTJQmQ2D">Entrar no servidor</a>
             
         </div>

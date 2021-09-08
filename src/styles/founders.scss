@@ -1,16 +1,23 @@
 .fundadores-content{
     text-align: center;
-    margin-top: 60px;
-    background-color: #171717;
+    margin-top: 150px;
+    background-color: #121214;
     min-height: 470px;
+   
 
     h1.founders-title{
-        color: #737373;
-        font: 400 40px "Poppins", sans-serif;
+        color: #FFF;
+        font: 500 45px "Rubik", sans-serif;
     }
 
     h1{
-        font: 400 30px "Poppins", sans-serif;
+        font: 500 30px "Rubik", sans-serif;
+    }
+
+    .founders-name{
+        margin-top: 30px;
+        color: white;
+        font: 400 20px "Roboto", sans-serif;
     }
 
     img {
@@ -27,22 +34,18 @@
         gap: 8px;
     }
 
-    .founders-name{
-        margin-top: 30px;
-        color: white;
-        font: 400 20px "Poppins", sans-serif;
-    }
+    
 
     .button{
     padding: 12px;
     border-radius: 50%;
-    border: 2px solid #171717;
+    border: 2px solid #121214;
     background-color: #fff;
     cursor: pointer;
 }
 
 .buttonwhite{
-    background-color: #171717;
+    background-color: #121214;
     padding: 12px;
     border-radius: 50%;
     border: 2px solid #fff;

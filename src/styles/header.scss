@@ -4,21 +4,16 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    position:fixed;
-    top: 0;
+    background-color: #121214;
+    
 
     img{
         max-width: 150px;
     }
 
-    .serverName {
-        color: #29292e;
-        font-size:28px;
-        
-    }
 
     .discordButton{
-        background-color: #ff1141;
+        background-color: #E50914;
         padding:12px 20px;
         color: #fff;
         border: 0;
