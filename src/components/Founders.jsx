@@ -2,7 +2,7 @@ import { Foundersname } from "./Foundersname"
 import { Button } from "./Button"
 import "../styles/founders.scss"
 import sling from '../assets/images/sling.jpg'
-import tokin from '../assets/images/tokin.jpg'
+import tokin from '../assets/images/tokin.png'
 import pew from '../assets/images/pew.jpg'
 import sharp from '../assets/images/sharp.png'
 import kinho from '../assets/images/kinho.png'

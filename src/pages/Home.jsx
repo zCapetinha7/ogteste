@@ -5,13 +5,17 @@ import {Games} from "../components/Games"
 import {Opinions} from "../components/Opinions"
 import {Qualities} from "../components/Qualities"
 import "../styles/home.scss"
+
+//images Opinions
 import desenhoImage from "../assets/images/desenho.png"
-import jordanImage from "../assets/images/jordan.jpg"
-import corujaImage from "../assets/images/coruja.jpg"
+import snowmanImage from "../assets/images/snowman.png"
+import globoImage from "../assets/images/globo.png"
+import mountainImg from "../assets/images/mountain.png"
+
+//images Qualities
 import botsImg from "../assets/images/bots.png"
 import diversaoImg from "../assets/images/diversao.png"
 import comunidadeImg from "../assets/images/comunidade.png"
-import legolasImg from "../assets/images/legolas.jpg"
 
 
 export function Home() {
@@ -37,9 +41,9 @@ export function Home() {
             <div className = "opinions-list">
             <h1 className ="title-op">Veja o que dizem os nossos membros</h1>
                 <Opinions image = {desenhoImage} text = "O servidor é muito bom, me divirto muito!" name = "João"/>
-                <Opinions image = {jordanImage} text = "O 4ano é bom demais, é um estilo de vida!" name = "Carlos"/>
-                <Opinions image = {corujaImage} text = "Não existe servidor igual a esse!" name = "Sergio"/>
-                <Opinions image = {legolasImg} text = "Esse servidor é realmente espetacular!" name = "Fábio"/>
+                <Opinions image = {snowmanImage} text = "O 4ano é bom demais, é um estilo de vida!" name = "Carlos"/>
+                <Opinions image = {globoImage} text = "Não existe servidor igual a esse!" name = "Sergio"/>
+                <Opinions image = {mountainImg} text = "Esse servidor é realmente espetacular!" name = "Fábio"/>
             </div>   
             <Discord/>
         </div>
