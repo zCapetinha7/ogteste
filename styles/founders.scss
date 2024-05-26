@@ -1,0 +1,54 @@
+.fundadores-content{
+    text-align: center;
+    margin-top: 150px;
+    background-color: #121214;
+    min-height: 470px;
+   
+
+    h1.founders-title{
+        color: #FFF;
+        font: 500 45px "Rubik", sans-serif;
+    }
+
+    h1{
+        font: 500 30px "Rubik", sans-serif;
+    }
+
+    .founders-name{
+        margin-top: 30px;
+        color: white;
+        font: 400 20px "Roboto", sans-serif;
+    }
+
+    img {
+        margin-top: 20px;
+        max-width: 180px;
+        border-radius: 50%;
+    }
+
+    .buttons{
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    
+
+    .button{
+    padding: 12px;
+    border-radius: 50%;
+    border: 2px solid #121214;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.buttonwhite{
+    background-color: #121214;
+    padding: 12px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+}

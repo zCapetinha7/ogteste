@@ -1,0 +1,35 @@
+.discord-content{
+   margin-top: 150px;
+   font: 400 24px "Roboto", sans-serif;
+   text-align: center;
+   min-height: 350px;
+
+   h2{
+    font: 500 45px "Rubik", sans-serif;
+    color: #fff;
+   }
+
+   img{
+       max-width:150px;
+       border-radius:50%;
+   }
+
+   .discord-img{
+       margin-top: 20px;
+   }
+
+   .discord-message{
+       color: #737373;
+       margin-top:20px;
+   }
+
+   .discord-link{
+       color: #E50914;
+       text-decoration: none;
+       font: 500 20px "Rubik", sans-serif;
+
+       &:hover{
+        text-decoration: underline;
+    }
+   }
+}

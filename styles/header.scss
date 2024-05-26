@@ -1,0 +1,29 @@
+.siteHeader{
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #121214;
+    
+
+    img{
+        max-width: 150px;
+    }
+
+
+    .discordButton{
+        background-color: #E50914;
+        padding:12px 20px;
+        color: #fff;
+        border: 0;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: 0.4s;
+        
+        &:hover{
+            filter: brightness(1.2)
+        }
+    }
+    
+}

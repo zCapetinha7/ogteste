@@ -1,0 +1,119 @@
+.main-content{
+    margin-top: 150px;
+    margin-left: 40px;
+
+    .title-aboutUs{
+        color: #FFF;
+        font: 500 45px "Rubik", sans-serif;
+    }
+
+    .about-content{
+        margin-top:15px;
+        font-size:24px;
+        color: #fff;
+    }
+    
+}
+.qualities-list{
+    margin-top: 150px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 100px;
+    margin-right: 40px;
+    margin-left: 40px;
+
+.qualities{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #121214;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    
+
+    img{
+        max-width: 120px;
+    }
+
+    .qualitiesTitle{
+        color: black;
+        font: 500 20px "Rubik", sans-serif;
+        margin-top: 10px;
+        color: #fff;
+
+    }
+
+    .qualitiesText{
+        color: black;
+        margin-left: 20px;
+        margin-right: 10px;
+        font: 500 20px "Rubik", sans-serif;
+        margin-top: 20px;
+        color: #737373;
+
+    }
+}
+}
+
+.opinions-list{
+    margin-top: 150px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 40px;
+
+    .title-op{
+        color: #fff;
+        font: 500 45px "Rubik", sans-serif;
+        margin-left: 40px;
+        
+    }
+
+
+    .op-content{
+        background-color: #121214;
+        width: 300px;
+        height:300px;
+        border-radius:10px;
+        
+        
+    }
+
+    .opinions-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .opinionsText{
+        margin-left: 10px;
+        margin-right: 10px;
+        font: 500 20px "Rubik", sans-serif;
+        color: #fff;
+    }
+
+    .opinionsName{
+        margin-left: 10px;
+        margin-right: 10px;
+        font: 500 20px "Rubik", sans-serif;
+        color: #E50914;
+        margin-top: 15px;
+        
+    }
+    
+    img{
+        max-width: 120px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border: 2px solid #121214;
+
+    }
+   
+   
+}

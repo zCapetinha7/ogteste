@@ -1,0 +1,22 @@
+.main-content-games{
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+    h1{
+        color: #FFF;
+        font: 500 45px "Rubik", sans-serif;
+    }
+
+    .games-content{
+        margin-top:15px;
+        font-size:24px;
+        color: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        gap: 100px;
+    }
+}
+
